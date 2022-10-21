@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><Codificar Decodificar></title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+  <body>
+<div class="contanie">
+
+</html>
+     <body>
+<div class="contanie">
+    <h1>Decodificador de Mensagens</h1>
+
+    <label for="mensagem1">Escreva alguma mensagem:</label> <br>
+    <textarea cols="25" rows="5" name="cdg1" id="cdg1"></textarea> <br>
+
+    <label for="escolhaMetodo">Escolha o Método:</label><br> 
+    <select name="metados" id="metados">
+         <option value="base" id="b64">Base64</option>
+        <option value="cesar" id="cCesar">Cifra de César</option>
+    </select><br>
+
+    <div class="seletorCesar" style="display: none;"> 
+        <p>Escolha algum numero:</p>
+        <input type="number" name="posiçãoCesar" id="posiçãoCesar" min="1" max="26">
+    </div>
+
+    <div class="radioType">
+        <input type="radio" name="options" value="criptografar" id="criptografar">
+        <label for="criptografar" id="labelCriptografar">Criptografar</label>
+
+        <input type="radio" name="options" value="descriptografar" id="descriptografar">
+        <label for="descriptografar" id="labelDescriptografar">Descriptografar</label>
+    </div>
+
+    <div class="botaomsg"> <br>
+        <input type="submit" id="submit" value="Criptografar" style="display: flex;">
+        <input type="submit" id="submit" value="Descriptografar" style="display: none;">
+    </div> <br>
+
+    <label for="resultado" id="resultado"> </label>
+    <textarea name="cdg2" id="cdg2" cols="25" rows="5"></textarea>
+  </div>
+    <script src="codigo.css"></script> 
+    <script src="cesar.js"></script>
+  
+</body>
+</html>
+       
